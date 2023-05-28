@@ -1,0 +1,86 @@
+.stamp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100vh;
+    background-color: #ffffff;
+  }
+  
+  .stamp-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    height: 90vh;
+    width: 190vh;
+    margin-right: -50rem;
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    
+    
+  }
+  
+  input[type="text"],
+  textarea {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 50%;
+    margin-top: 5px;
+    margin: auto;
+    
+   
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0077cc;
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+.personalinfo
+  {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+.party
+{
+  flex:1;
+  width: 100vh;
+  margin-bottom: 2.5rem;
+}
+
+h1{
+  font-weight: 100;
+  color: rgb(82, 161, 115);
+}
+.formline {
+  width: 0.5px;
+  background-color: rgb(77, 75, 75);
+  margin: 0 10px;
+  height: 90%;
+}
+
+input[type="text"].personalinput
+{
+  width: 35%;
+  
+}
+
